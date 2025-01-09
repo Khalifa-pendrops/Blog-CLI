@@ -76,7 +76,8 @@ const createBlogPost = () => {
 
 const viewBlogPost = () => {
   // FIND OUT WHY THIS FUNCTION IS NOT WORKING
-  console.log("\n---MY BLOG POSTS---");
+  // IT IS WORKING. BUT THE PROGRAM HAS TO BE CLOSED AFTER THE FIRST POST AND OPENED AGAIN FOR IT TO WORK. YET TO BE FIXED
+  console.log("\nMY BLOG POSTS");
   if (blogPosts.length === 0) {
     console.log(
       "Ooops! Seems like there is no Blog Post at the moment. Please create a Post."
